@@ -11,8 +11,7 @@ self.addEventListener('install', function (event) {
    */
 
   let urlsToCache = [
-    '/',
-    '/assets',
+    'assets',
     'https://introweb.tech/assets/json/ghostCookies.json',
     'https://introweb.tech/assets/json/birthdayCake.json',
     'https://introweb.tech/assets/json/chocolateChip.json',
