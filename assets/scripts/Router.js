@@ -72,6 +72,7 @@ export class Router {
     }
     let hash = page == "home" ? "" : "#" + page;
     if(!statePopped && window.location.hash != hash) {
+      console.log(window.location);
       history.pushState(page, "", window.location.origin + "/" + hash);
     }
     this[page]();

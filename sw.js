@@ -20,7 +20,6 @@ self.addEventListener('install', function (event) {
     'https://introweb.tech/assets/json/turkey.json',
     'https://introweb.tech/assets/json/pumpkinPie.json',
     'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190807-ghost-cookies-0031-landscape-pf-1566483952.jpg?crop=0.668xw:1.00xh;0.160xw,0&resize=100:*',
-    'https://cdn.sallysbakingaddiction.com/wp-content/uploads/2014/10/sallys-baking-addiction-pumpkin-pie-2.jpg'    
   ];
 
   // Perform install steps
