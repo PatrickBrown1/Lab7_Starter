@@ -73,7 +73,7 @@ export class Router {
     let hash = page == "home" ? "" : "#" + page;
     if(!statePopped && window.location.hash != hash) {
       // url changes for github pages vs local, calculate correct url
-      let current_url = window.location.origin.toString().toLowercase() == "https://patrickbrown1.github.io" ? "https://patrickbrown1.github.io/Lab7_Starter" : "";
+      let current_url = window.location.origin.toString().toLowerCase() == "https://patrickbrown1.github.io" ? "https://patrickbrown1.github.io/Lab7_Starter" : "";
       history.pushState(page, "", current_url + "/" + hash);
     }
     this[page]();
