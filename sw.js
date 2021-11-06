@@ -11,14 +11,12 @@ self.addEventListener('install', function (event) {
    */
 
   let urlsToCache = [
-    '/assets',
     'https://introweb.tech/assets/json/ghostCookies.json',
     'https://introweb.tech/assets/json/birthdayCake.json',
     'https://introweb.tech/assets/json/chocolateChip.json',
     'https://introweb.tech/assets/json/stuffing.json',
     'https://introweb.tech/assets/json/turkey.json',
     'https://introweb.tech/assets/json/pumpkinPie.json',
-    'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190807-ghost-cookies-0031-landscape-pf-1566483952.jpg?crop=0.668xw:1.00xh;0.160xw,0&resize=100:*',
   ];
 
   // Perform install steps
